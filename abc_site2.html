@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<style>
+
+	.button {
+  	background-color: #4CAF50; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 13px 26px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+	}
+
+
+
+	.button4 {
+ 	 background-color: white;
+ 	 color: blue;
+ 	 border: 2px solid blue;
+	}
+
+	.button4:hover {background-color: #e7e7e7;}
+
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="abc.css">
+
+
+
+</head>
+<body style="background-color:white;">
+
+	<script type="text/javascript">
+    var urls = [
+        "abc_site1.html",
+        'abc_site9.html',
+        'abc_site3.html',
+        'abc_site4.html',
+        'abc_site5.html',
+        'abc_site6.html',
+        'abc_site7.html',
+        'abc_site8.html',
+        'abc_site10.html',
+        'abc_site11.html',
+        'abc_site12.html',
+        'abc_site13.html',
+        'abc_site14.html',
+        'abc_site15.html',
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+
+
+
+	</script>
+
+
+<div style="height:400px; padding: 5px; line-height: 42px; letter-spacing: 15px;">
+
+<h1>
+&#127956; <span class="emoji">🏃‍♀️</span> &#127956;
+</h1>
+
+</div>
+
+
+<div style="font-family: arial; color: blue; height:210px;
+line-height: 50px; font-size: 30px; font-weight: bold; text-align: center; padding-top: 23px; margin-top: 7px;">
+<br>
+Jogging de cette montagne à cette montagne<br>
+<em>Jogging from this mountain to that moutain</em>
+
+</div>
+
+
+
+
+
+
+<div style="text-align: center;">
+<button class="button button4" href="#" onClick="goSomewhere(); return false;">Here's another one
+</button>
+</div>
+
+<br>
+
+<div style="text-align: center; font-size: 16px; color: blue; font-family: arial;"> work by <a href = "mailto: euna.lee2257@gmail.com"><span class="emoji">👩🏻‍🔧</span></a></div>
+
+ 
+</body>
+</html>
+

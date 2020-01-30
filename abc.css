@@ -1,0 +1,15 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+  margin-top: 130px;
+  font-size: 280px;
+  line-height: 340px;
+  width: 80%;
+  padding-left: 13%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(3, end),
+             blink-caret .5s step-end infinite alternate;
+}
